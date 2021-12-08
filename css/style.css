@@ -1,3 +1,168 @@
-body {
+#body1 {
   background:grey;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+
+grid-template-columns: auto;
+
+grid-template-rows: 20% 10% 40% 30%;
+
+grid-template-areas: 
+"hd hd hd hd"
+"nv nv nv nv"
+"sc sc sc sc"
+"ft ft ft ft"
+;
+
+background-color: lavenderblush;
+  font-family: 'Courier New', Courier, monospace ;
 }
+
+header{
+  grid-area: hd;
+  background-color: aqua;  
+  display: flex; align-items: center; 
+  justify-content: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+nav{
+  grid-area: nv;
+  background-color:darkturquoise;
+  display:flex;
+  flex-direction:row;
+  flex: content; 
+  justify-content: space-around;
+  display: flex;
+}
+
+section{
+  grid-area:sc;
+  background-color:darkcyan;
+  background-image: url("../img/emil.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer{
+  grid-area: ft;
+  background-color:slategray;
+}
+
+#bild{
+  width: 50px;
+}
+
+
+
+#body2 {
+  background:grey;
+
+display: grid;
+height: 100vh;
+width: 100vw;
+
+grid-template-columns: auto;
+
+grid-template-rows: 10% 30% 30% 30%;
+
+grid-template-areas: 
+"hd hd hd hd"
+"nv nv nv nv"
+"sc sc sc sc"
+"ft ft ft ft"
+;
+
+background-color: lavenderblush;
+  font-family: 'Courier New', Courier, monospace ;
+}
+
+  header{
+    grid-area: hd;
+    background-color: aqua;  
+    display: flex; align-items: center; 
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  nav{
+    grid-area: nv;
+    background-color:darkturquoise;
+    display:flex;
+    flex-direction:row;
+    flex: content; 
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  
+  footer{
+    grid-area: ft;
+    background-color:slategray;
+  }
+  
+  
+  #bild{
+    width: 50px;
+  }
+
+  
+
+
+
+
+
+#body3 {
+  background:grey;
+
+display: grid;
+height: 100vh;
+width: 100vw;
+
+grid-template-columns: auto;
+
+grid-template-rows: 10% 60% 30%;
+
+grid-template-areas: 
+"hd hd hd hd"
+"nv nv nv nv"
+"ft ft ft ft"
+;
+
+background-color: lavenderblush;
+  font-family: 'Courier New', Courier, monospace ;
+}
+
+
+header{
+  grid-area: hd;
+  background-color: aqua;  
+  display: flex; align-items: center; 
+  justify-content: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+nav{
+  grid-area: nv;
+  background-color:darkturquoise;
+  display:flex;
+  flex-direction:row;
+  flex: content; 
+  justify-content: space-around;
+  display: flex;
+}
+
+footer{
+  grid-area: ft;
+  background-color:slategray;
+}
+
+#bild{
+  width: 100px;
+}
+
