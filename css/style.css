@@ -1,17 +1,18 @@
 #body1 {
-  background:grey;
+  background-color: white;
   display: grid;
   height: 100vh;
   width: 100vw;
 
 grid-template-columns: auto;
 
-grid-template-rows: 20% 10% 40% 30%;
+grid-template-rows: 1.5fr 0.5fr 2.5fr 2fr;
 
 grid-template-areas: 
 "hd hd hd hd"
 "nv nv nv nv"
 "sc sc sc sc"
+"ac ac ac ac"
 "ft ft ft ft"
 ;
 
@@ -19,98 +20,151 @@ background-color: lavenderblush;
   font-family: 'Courier New', Courier, monospace ;
 }
 
-header{
+
+#body1 header{
   grid-area: hd;
-  background-color: aqua;  
   display: flex; align-items: center; 
   justify-content: center;
   justify-content: space-around;
   display: flex;
+  background-color:midnightblue;
 }
 
-nav{
+#body1 nav{
   grid-area: nv;
-  background-color:darkturquoise;
   display:flex;
   flex-direction:row;
   flex: content; 
   justify-content: space-around;
   display: flex;
+  background-color:powderblue;
 }
 
-section{
+#body1 section{
   grid-area:sc;
-  background-color:darkcyan;
-  background-image: url("../img/emil.png");
+  background-image: url("../img/abcde.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size:contain;
+  background-position: center;
+  background-color:rgb(104, 130, 153);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content:center;
 }
 
-footer{
-  grid-area: ft;
-  background-color:slategray;
+#body1 article{
+  grid-area: ac;
+  background-color:aliceblue;
+  display:flex;
+  flex-direction:column;
+  display:flex; align-items:center; 
 }
+
+
+f#body1 ooter{
+  grid-area: ft;
+  background-color:aliceblue;
+  flex-direction:row;
+  justify-content: space-around;
+  display:flex; align-items:center;  
+
+}
+
 
 #bild{
-  width: 50px;
+  width: 5rem;
 }
 
 
 
 #body2 {
-  background:grey;
+  background:silver;
 
 display: grid;
 height: 100vh;
 width: 100vw;
 
 grid-template-columns: auto;
+grid-template-rows: 0.5fr 0.5fr 2fr 2fr 2fr;
 
-grid-template-rows: 10% 30% 30% 30%;
 
 grid-template-areas: 
 "hd hd hd hd"
 "nv nv nv nv"
+"ac ac ac ac"
 "sc sc sc sc"
 "ft ft ft ft"
 ;
 
-background-color: lavenderblush;
-  font-family: 'Courier New', Courier, monospace ;
+background-color:lightgrey;
+  font-family: 'Dancing Script', cursive;
 }
 
-  header{
+#body2 ol{
+  padding: 20px;
+}
+
+#body2 #header1{
+    background-color:gainsboro;
     grid-area: hd;
-    background-color: aqua;  
     display: flex; align-items: center; 
     justify-content: center;
     justify-content: space-around;
     display: flex;
   }
   
-  nav{
+   
+  
+  #body2 #nav1{
     grid-area: nv;
-    background-color:darkturquoise;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     flex: content; 
     justify-content: space-around;
-    display: flex;
-  }
-  
-  
-  footer{
-    grid-area: ft;
-    background-color:slategray;
-  }
-  
-  
-  #bild{
-    width: 50px;
+    display: flex; align-items:center;
   }
 
+  #body2 #article1{
+    grid-area: ac;
+    display:flex;
+    flex-direction:column;
+    display:flex; align-items:center; 
+
+    margin: auto;
+   width: 99%;
+   border: 4px solid midnightblue;
+   padding: 10px;
+
+  }
+
+
+  #body2 #section1{
+  grid-area:sc;
+  margin: auto;
+   width: 99%;
+   border: 3px solid midnightblue;
+   padding: 9px;
+}
+
+#body2 #footer1{
+   grid-area: ft;
+   margin: auto;
+   width: 99%;
+   border: 3px solid midnightblue;
+   padding: 8px;
+   flex-direction: column;
+
+  }
+
+  ab {
+    text-align: center;
+  }
   
+  
+  #bild1{
+    width: 5rem;
+  }
 
 
 
@@ -125,7 +179,7 @@ width: 100vw;
 
 grid-template-columns: auto;
 
-grid-template-rows: 10% 60% 30%;
+grid-template-rows: 1fr 4fr 2fr;
 
 grid-template-areas: 
 "hd hd hd hd"
@@ -138,18 +192,17 @@ background-color: lavenderblush;
 }
 
 
-header{
+#body3 #header2{
   grid-area: hd;
-  background-color: aqua;  
   display: flex; align-items: center; 
   justify-content: center;
   justify-content: space-around;
   display: flex;
 }
 
-nav{
+
+#body3 #nav2{
   grid-area: nv;
-  background-color:darkturquoise;
   display:flex;
   flex-direction:row;
   flex: content; 
@@ -157,12 +210,21 @@ nav{
   display: flex;
 }
 
-footer{
+
+#body3 #footer2{
   grid-area: ft;
-  background-color:slategray;
+  display: flex; align-items: center; 
+  justify-content: center;
+  display: flex; 
+  flex-direction: column;
 }
 
-#bild{
-  width: 100px;
+#bildd{
+  width: 22rem;
 }
+
+#bild2{
+  width: 5rem;
+}
+
 
