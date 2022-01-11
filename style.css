@@ -1,0 +1,211 @@
+#body1 {
+    display: grid;
+    height: 100vh;
+    width: 100vw;     
+    background-image: url(../img/p.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  grid-template-columns: auto;
+  
+  grid-template-rows: 7fr 4fr 0.5fr 0.5fr;
+
+  
+  grid-template-areas: 
+  "hd hd hd hd"
+  "nv nv nv nv"
+  "sc sc sc sc"
+  "ft ft ft ft"
+  ; 
+  }
+
+ 
+  #body1 #header{
+    grid-area: hd;
+    display: flex; align-items: center; 
+    justify-content: space-around;
+  }
+
+  
+  #body1 #nav{
+    grid-area: nv;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+  }
+  
+  #body1 #section{
+    grid-area:sc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #body1 #article{
+    grid-area: ac;
+    display:flex; align-items:center; 
+    flex-direction:column;
+  }
+  
+  
+  #body1 #footer{
+    grid-area: ft;
+    display:flex; align-items:center;  
+    flex-direction:row;
+    justify-content: space-around;
+  }
+  
+  
+  #bild{
+    width: 10rem;
+  }
+
+
+
+
+
+
+
+
+
+  #body2 {
+    background:silver;
+  
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  
+  grid-template-columns: auto;
+  grid-template-rows: 0.5fr 0.5fr 2fr 2fr 2fr;
+  
+  
+  grid-template-areas: 
+  "hd hd hd hd"
+  "nv nv nv nv"
+  "ac ac ac ac"
+  "sc sc sc sc"
+  "ft ft ft ft"
+  ;
+  
+  background-color:lightgrey;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  
+  #body2 #header1{
+      grid-area: hd;
+      background-color:gainsboro;
+      display: flex; align-items: center; 
+      justify-content: space-around;
+    }
+    
+    
+    #body2 #nav1{
+      grid-area: nv;
+      display: flex; align-items:center;
+      flex-direction:column;
+      justify-content: space-around;
+    }
+  
+    #body2 #article1{
+      grid-area: ac;
+      flex-direction:column;
+      display:flex; align-items:center; 
+  
+     margin: auto;
+     width: 99%;
+     border: 4px solid midnightblue;
+     padding: 10px;
+    }
+  
+  
+    #body2 #section1{
+      grid-area:sc;
+      margin: auto;
+      width: 99%;
+      border: 3px solid midnightblue;
+      padding: 9px;
+  }
+  
+  #body2 #footer1{
+     grid-area: ft;
+     margin: auto;
+     width: 99%;
+     border: 3px solid midnightblue;
+     padding: 8px;
+     flex-direction: column;
+    }
+    
+    #bild1{
+      width: 7rem;
+    }
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+  #body3 {
+    background:grey;
+  
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  
+  grid-template-columns: auto;
+  
+  grid-template-rows: 1fr 4fr 3fr 2fr;
+  
+  grid-template-areas: 
+  "hd hd hd hd"
+  "nv nv nv nv"
+  "ac ac ac ac"
+  "ft ft ft ft"
+  ;
+  
+  background-color: lavenderblush;
+    font-family: 'Courier New', Courier, monospace ;
+  }
+  
+  
+  #body3 #header2{
+    grid-area: hd;
+    display: flex; align-items: center; 
+    justify-content: space-around;
+  }
+  
+  
+  #body3 #nav2{
+    grid-area: nv;
+    display:flex;
+    flex-direction:row;
+    flex: content; 
+    justify-content: space-around;
+  }
+  
+  #body3 #article2{
+    grid-area: ac;
+  }
+
+  #body3 #footer2{
+    grid-area: ft;
+    display: flex; align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #bild2{
+    width: 7rem;
+  }
+  
+  #bild3{
+    width: 20rem;
+  }
+  
+  
